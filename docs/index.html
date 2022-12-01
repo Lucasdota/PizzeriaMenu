@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<!--
+    Description:
+
+        - A pizza menu with descriptions, price and a background.
+
+    Knowledges applied:
+
+        .table layout displaying the information like a menu
+        .aligned items
+        .color combination the same as the Italy flag
+        .fixed background so we can see it all no matter the viewport size
+        .different fonts applied
+        .responsive font-size unit(vh) for different devices so the words can be read no matter the viewport size
+        .prevented overlapping when downsizing the viewport
+        .link to external site
+        .footer with some information
+        .viewport meta tag to adjust the width according to the device's width
+        .description meta tag to help browsers understand the content
+        .link tag to add icon to the browser tab bar
+        .and more
+-->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A pizza menu for a business">
+    <title>Pizzeria Dom Coder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/7297/7297294.png">
+</head>
+<body>
+    <main>
+        <section id="name">
+            <h1>Pizzeria Dom Coder</h1>
+            <p>&ltHTML&gt <span>Est. 2022</span> #CSS</p>
+        </section>
+        <hr>  
+            <table class="pizza"><!--table container for the flavors and prices-->
+                <h2>Pizza</h2>
+                <tbody>
+                    <tr class="flavor">
+                        <th><!--empty element to align the tds with the next tds-->
+                        </th>                  
+                        <td>S</td>
+                        <td>M</td>
+                        <td>L</td>
+                    </tr>
+                    <tr class="flavor">
+                        <th><span class="fname">Margherita</span>
+                            <span class="description">Fresh Mozzarella, Fresh Tomatoes, Basil & Sauce</span>
+                        </th><!--a table header displaying the flavor and description-->                
+                        <td>$13</td>
+                        <td>$15</td>
+                        <td>$17</td>
+                    </tr>
+                    <tr class="flavor">
+                        <th><span class="fname">Primavera</span>
+                            <span class="description">Diced Tomatoes, Garlic, Onions, Basil, Mozzarela & Sauce</span>
+                        </th>                  
+                        <td>$13</td>
+                        <td>$19</td>
+                        <td>$20</td>
+                    </tr>
+                    <tr class="flavor">
+                        <th><span class="fname">Mondello</span>
+                            <span class="description">Fresh Mozzarella, Prosciutto, Arugula & Sauce</span>
+                        </th>                  
+                        <td>$14</td>
+                        <td>$18</td>
+                        <td>$20</td>
+                    </tr>
+                    <tr class="flavor">
+                        <th><span class="fname">D'uomo</span>
+                            <span class="description">Crispy Chicken, Lettuce, Tomatoes, Ranch, Mozzarella & Sauce</span>
+                        </th>                  
+                        <td>$14</td>
+                        <td>$18</td>
+                        <td>$20</td>
+                    </tr>
+                    <tr class="flavor">
+                        <th><span class="fname">Quattro Formaggi</span>
+                            <span class="description">Gorgonzola, Provolone, Parmesan, Mozzarella (Sauce Optional)</span>
+                        </th>                  
+                        <td>$13</td>
+                        <td>$17</td>
+                        <td>$19</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="toppings">Toppings: (Small)$1.15 (Medium)$1.75 (Large)$2.30<br>
+            Pepperoni, Olives, Bacon, Onions, Beef, Broccoli, Artichokes,
+            Green Peppers, Pineapple, Jalapenos, Shrimp, Ham, Banana Peppers, Roasted Peppers,
+            Salami, Anchovies & Mushrooms
+            </p>
+            <table class="drinks">
+                <h2>Drinks</h2>
+                <tr class="flavor">
+                    <th>
+                    </th>                  
+                    <td>355ml</td>
+                    <td>1L</td>
+                    <td>2L</td>
+                </tr>
+                <tr class="flavor">
+                    <th><span class="fname2">Sprite</span></th>                  
+                    <td>$2</td>
+                    <td>$4</td>
+                    <td>$6</td>
+                </tr>
+                <tr class="flavor">
+                    <th><span class="fname2">Iced Tea</span></th>                  
+                    <td>$1.50</td>
+                    <td>$3</td>
+                    <td>$4</td>
+                </tr>
+                <tr class="flavor">
+                    <th><span class="fname2">Pepsi</span></th>                  
+                    <td>$2</td>
+                    <td>$4</td>
+                    <td>$6</td>
+                </tr>
+                <tr class="flavor">
+                    <th><span class="fname2">Diet Pepsi</span></th>                  
+                    <td>$2</td>
+                    <td>$4</td>
+                    <td>$6</td>
+                </tr>
+                <tr class="flavor">
+                    <th><span class="fname2">Dr. Pepper</span></th>                  
+                    <td>$1.75</td>
+                    <td>$2.80</td>
+                    <td>$4</td>
+                </tr>
+                <tr class="flavor">
+                    <th><span class="fname2">Root Beer</span></th>                  
+                    <td>$3</td>
+                    <td>$5</td>
+                    <td>$7</td>
+                </tr>
+                <tr class="flavor">
+                    <th><span class="fname2">Bottled Water</span></th>                  
+                    <td>$1</td>
+                    <td>$1.90</td>
+                    <td>$2.50</td>
+                </tr>
+            </table>    
+        <hr>
+        <footer>
+            <p><a target="_blank" href="https://www.linkedin.com/in/lucas-dota-trombini-9b91b0251/">Visit Our Website</a></p>
+            <!--a link to visit the pretend pizzeria website-->
+            <p>123 Free Code Camp Drive</p>
+        </footer>
+    </main>
+</body>
+</html>

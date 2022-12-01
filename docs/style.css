@@ -1,0 +1,153 @@
+html{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+/*a covered background so the pizza is always shown at a nice proportion*/
+body{
+    background:url(https://images.pexels.com/photos/4553111/pexels-photo-4553111.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin:0;
+    padding:0;
+}   
+
+main{
+    width:40%;
+    height:90%;
+    padding:0.5% 2%;
+    margin:1% 2%;
+    background-color:#EFF0EA;
+    min-width: 360px;
+}
+
+#name{
+    text-align:center;
+}
+
+/*clamp function to set a min a max font-size to make it readable in all devices*/
+h1{
+    font-size:clamp(25px, 5vh, 5vh);
+    margin-top:3%;
+    font-family:arial black;
+}
+
+#name span{
+    font-style:italic;
+}
+
+#name p{
+    font-size:clamp(10px, 2vh, 2vh);
+    margin-top:-3%;
+    font-family:courier;  
+}
+
+hr{
+    margin:3% auto;
+    border:2px solid #597525;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:1rem;
+    font-family:Arial Black;
+    letter-spacing: 2px;
+    font-size:clamp(20px, 3.5vh, 3.5vh);
+}
+
+table{   
+    border: 0;
+    width: 100%;
+    margin-top: -0.9rem;
+}
+
+tbody{
+    display: table-row-group;
+}
+
+tr{
+    display: table-row;
+}
+
+th{
+    display:inline-block;
+    font-weight: bold;
+}
+
+tr.flavor th{
+    text-align: left;
+    padding-top: 0.3rem;
+    padding-left: 0.5rem;
+}
+
+
+/*calc function to make a responsive break-line for the description*/
+tbody th{
+    width: calc(100% - 8rem); 
+}
+
+
+/*block display to make it occupy an entire row*/
+tr.flavor th .description{
+    display: block;
+    font-weight: normal;
+    font-style: italic;
+    padding: 0.2rem -1% 0.75rem;
+    margin-right: -13.5rem;
+    font-size: clamp(15px, 2vh, 2vh);
+}
+
+/*vertical alignment to align it with the flavor name*/
+tr.flavor td{
+    vertical-align: top;
+    padding: 0.8rem 0 0;
+    text-align: right;  
+    font-weight:bold; 
+    font-family:georgia;
+    font-size:clamp(15px, 2.2vh, 2.2vh);
+}
+
+tbody td{
+    width: 5vw;
+    max-width: 4rem;
+}
+
+td{
+    display: table-cell;
+}
+
+.toppings{
+    font-size:clamp(12px, 1.8vh, 1.8vh);
+    text-align:center;
+    font-family:Comic Sans MS;
+}
+
+.fname{
+    font-size:clamp(19px, 3.5vh, 3.5vh);
+    font-family:georgia;
+    color:#A5331D;
+}
+
+.fname2{
+    font-size:clamp(19px, 3vh, 3vh);
+    font-family:georgia;
+    color:#A5331D;
+}
+
+footer{
+    padding-top:2%;
+}
+
+footer p{
+    text-align: center;
+    margin-top:-0.7vw;
+    font-family:courier;
+    font-size:clamp(12px, 2vh, 2vh);
+}
+
+a{
+    color:#597525;
+}
