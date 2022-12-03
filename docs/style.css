@@ -6,7 +6,7 @@ html{
 
 /*a covered background so the pizza is always shown at a nice proportion*/
 body{
-    background:url(https://images.pexels.com/photos/4553111/pexels-photo-4553111.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background:url(images/Pizza.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
