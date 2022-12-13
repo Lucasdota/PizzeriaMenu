@@ -3,7 +3,7 @@
 
         - A pizza menu with descriptions, price and a background.
 
-    Knowledges applied:
+Knowledges applied:
 
         .table layout displaying the information like a menu
         .aligned items
