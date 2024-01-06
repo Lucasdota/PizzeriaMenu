@@ -15,6 +15,4 @@ Main features:
 - Footer with some information
 - Viewport meta tag to adjust the width according to the device's width
 - Description meta tag to help browsers understand the content
-- Link tag to add icon to the browser tab bar
-
-Website: [click here](https://lucasdota.github.io/PizzeriaMenu/)				
+- Link tag to add icon to the browser tab bar		
